@@ -1,0 +1,100 @@
+site_name: The Content Practice
+site_description: A beginner guide to making, posting and judging your own videos, with no monetisation.
+site_author: Breno Treviso
+site_url: https://brenotreviso.github.io/content-practice/
+repo_url: https://github.com/brenotreviso/content-practice
+repo_name: brenotreviso/content-practice
+edit_uri: edit/main/docs/
+copyright: Text CC BY-NC-SA 4.0 · Templates MIT · © 2026 Breno Bergamin (Breno Treviso)
+docs_dir: docs
+hooks:
+  - scripts/mkdocs_hooks.py
+
+extra_javascript:
+  - javascripts/open-links-new-tab.js
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Nunito
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle: { icon: material/weather-night, name: Dark mode }
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle: { icon: material/weather-sunny, name: Light mode }
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: { permalink: true }
+  - pymdownx.details
+  - pymdownx.highlight: { anchor_linenums: true }
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tasklist: { custom_checkbox: true }
+
+# MkDocs default-excludes a top-level docs/templates/ folder (it reserves the name).
+# Our worksheets live in repo-root templates/, symlinked there — re-include them.
+exclude_docs: |
+  !/templates/
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - Home: index.md
+  - Guide:
+      - 0 · Start here: 00-start-here.md
+      - Meet Maya: meet-maya.md
+      - 1 · You, not the algorithm: 01-you-not-the-algorithm.md
+      - 2 · Personal brand: 02-personal-brand.md
+      - 3 · Niches and pillars: 03-niches-and-pillars.md
+      - 4 · Ideas and research: 04-ideas-and-research.md
+      - 5 · Formats: 05-formats.md
+      - 6 · Attention: 06-attention.md
+      - 7 · Scripting: 07-scripting.md
+      - 8 · Text, hashtags, titles, thumbnails: 08-text-hashtags-thumbnails.md
+      - 9 · Recommendations: 09-recommendations.md
+      - 10 · Platforms: 10-platforms.md
+      - 11 · Analytics: 11-analytics.md
+      - 12 · Plan, batch, manage: 12-plan-batch-manage.md
+      - 13 · Agent instructions: 13-agent-instructions.md
+      - 14 · Library and extras: 14-library-and-extras.md
+  - Platform snapshot: platform-snapshot.md
+  - Templates:
+      - templates/README.md
+      - Brand sheet: templates/brand-sheet.md
+      - Content pillars: templates/content-pillars.md
+      - Idea tree: templates/idea-tree.md
+      - Script templates: templates/script-templates.md
+      - Content calendar: templates/content-calendar.md
+      - Batching plan: templates/batching-plan.md
+      - Analytics review: templates/analytics-review.md
+  - Checklists:
+      - checklists/README.md
+      - First video: checklists/first-video.md
+      - Before you post: checklists/before-you-post.md
+      - 48-hour review: checklists/review-48h.md
+      - Trial Reels: checklists/trial-reels.md
+  - Glossary: glossary.md
+  - Sources: sources.md

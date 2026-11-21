@@ -40,7 +40,6 @@ mkdocs build --strict
 - **Windows + symlinks:** the skill lives in `.agents/skills/content-practice/` and is symlinked into `.claude/skills/` and `.grok/skills/`; the docs website links `docs/templates` and `docs/checklists` the same way. On Windows, enable symlinks before cloning (`git config --global core.symlinks true` plus Developer Mode), or copy the folders.
 - **Maya Sen** is made up for teaching. She is not a real person. Do not cite her as a creator, client or data point.
 - **No monetisation.** This guide does not cover brand deals, Creator Rewards, CPM, affiliate or growth hacks. AIDA and PAS are taught as attention structures, not sales funnels.
-- Links to `github.com/brenotreviso/content-practice` point to where this repo will be published; they return 404 until then.
 
 ## Licence
 

@@ -4,7 +4,7 @@ Every external link in this guide, in one place. Checked on **20 November 2026 (
 
 The local address `http://127.0.0.1:8000` in the README is the docs site on your machine, not an external source. It is not counted below.
 
-**103 external URLs** are listed here (including three not-yet-live GitHub links for this repo).
+**103 external URLs** are listed here (including three GitHub links for this repo).
 
 ## Unverified or limited items (read before quoting)
 
@@ -33,9 +33,9 @@ The local address `http://127.0.0.1:8000` in the README is the docs site on your
 | Many publisher DOIs (Wiley, Oxford, ACM, Sage, Elsevier) | Often a bot check or paywall (**403**) to a script. The DOI was recorded; abstracts or open pages were opened where possible. The LC4MP encyclopedia DOI used here is [10.1002/9781118783764.wbieme0077](https://doi.org/10.1002/9781118783764.wbieme0077) (*International Encyclopedia of Media Effects*). Sweller (1988) is linked as [doi:10.1016/0364-0213(88)90023-7](https://doi.org/10.1016/0364-0213%2888%2990023-7) (parentheses encoded so Markdown does not truncate the URL); it resolves to Wiley. |
 | Koren, Bell & Volinsky (2009) | `doi.org/10.1109/MC.2009.263` returned **500** to an automated request. [IEEE Xplore 5197422](https://ieeexplore.ieee.org/document/5197422) is the same article; that host also often bot-blocks. The citation itself is the standard 2009 *IEEE Computer* paper. |
 
-## Not yet live
+## This repo
 
-Links to `github.com/brenotreviso/content-practice/...` point to where this repo **will** be published; they return 404 until then. The companion repo [github.com/brenotreviso/coded-motion](https://github.com/brenotreviso/coded-motion) opened (200) on the check date.
+Links to `github.com/brenotreviso/content-practice/...` point to this repo, published 21 Nov 2026. The companion repo [github.com/brenotreviso/coded-motion](https://github.com/brenotreviso/coded-motion) opened (200) on the check date.
 
 ## Official platform pages (YouTube, Instagram/Meta, TikTok, X, LinkedIn, Google)
 
@@ -152,9 +152,9 @@ Not surveys. Used only to show that a stall is *said*.
 - [r/content_marketing: focusing on the wrong things / gear](https://www.reddit.com/r/content_marketing/comments/1p5jmqb/everyone_focuses_on_the_wrong_things_and_wonders/)
 - [r/socialmedia: advice that assumes eight hours a day](https://www.reddit.com/r/socialmedia/comments/1obkzro/im_tired_of_advice_that_assumes_everyone_has_8/)
 
-## This repo and its companion (when published)
+## This repo and its companion
 
 - [brenotreviso/coded-motion](https://github.com/brenotreviso/coded-motion)
-- [AGENTS.md (this repo, not yet live)](https://github.com/brenotreviso/content-practice/blob/main/AGENTS.md)
-- [content-practice skill (not yet live)](https://github.com/brenotreviso/content-practice/blob/main/.agents/skills/content-practice/SKILL.md)
-- [CHANGELOG.md (not yet live)](https://github.com/brenotreviso/content-practice/blob/main/CHANGELOG.md)
+- [AGENTS.md](https://github.com/brenotreviso/content-practice/blob/main/AGENTS.md)
+- [content-practice skill](https://github.com/brenotreviso/content-practice/blob/main/.agents/skills/content-practice/SKILL.md)
+- [CHANGELOG.md](https://github.com/brenotreviso/content-practice/blob/main/CHANGELOG.md)

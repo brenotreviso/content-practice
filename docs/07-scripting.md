@@ -86,7 +86,7 @@ For each framework: what it is, the theory and sources, a real or official examp
 
 ### 5. Promise, break, frustrate, solve
 
-**Status.** This is the pattern Breno described for the guide: make a promise, break an expectation, let the tension sit, then give the solution. **Unverified as a formal published title** — we have not found this exact four-step name as a single established framework. We teach it as a usable structure and map it onto the sourced ideas above (curiosity gap, expectation violation, delayed payoff) and onto Problem–Agitate–Solve, below.
+**Status.** This is a structure taught in this guide: make a promise, break an expectation, let the tension sit, then give the solution. **Unverified as a formal published title** — we have not found this exact four-step name as a single established framework. We teach it as a usable structure and map it onto the sourced ideas above (curiosity gap, expectation violation, delayed payoff) and onto Problem–Agitate–Solve, below.
 
 **Fill in.**
 

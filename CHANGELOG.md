@@ -1,8 +1,12 @@
 # Changelog
 
+## 0.2.1 · 21 Nov 2026
+- The author's name is removed from the guide's prose, agent files, templates and this changelog. It remains only in the licence copyright lines, the site footer and site author, the README copyright line, and the home-page licence line.
+
+
 ## 0.2.0 · 21 Nov 2026
 - Removed the beginner course pages and every link to them. The 7-day first-video path in chapter 0 stays.
-- Text and documentation licence is now CC BY-NC-SA 4.0 (official legal text in LICENSE). Code and templates stay MIT (LICENSE-CODE). Copyright holder unchanged: Breno Bergamin (Breno Treviso). Site footer and README updated.
+- Text and documentation licence is now CC BY-NC-SA 4.0 (official legal text in LICENSE). Code and templates stay MIT (LICENSE-CODE). Copyright holder unchanged. Site footer and README updated.
 - Added mid-size, beginner-adjacent creator examples, with links checked on 21 Nov 2026: Justine Doiron (@justine_snacks, Instagram-native), Beat the Budget / Mimi Harrison (@beatthebudget on TikTok and Instagram), and Internet Shaquille (YouTube). No follower or view counts quoted. See docs/sources.md and chapter 5.
 - Blocker clean-up: dropped a third-party name from agent rules; platform-snapshot refresh is now "the maintainer, quarterly"; removed a companion-guide brand example from chapter 13.
 - Fixed the visible LC4MP DOI in chapter 6 (correct: 10.1002/9781118783764.wbieme0077). Instagram Help https://help.instagram.com/236245819849257 is now labelled with its actual title, "Add a caption before sharing your post on Instagram". Added the open arXiv copy https://arxiv.org/abs/2301.04945 next to the CHI 2024 TikTok data-donation paper (same DOI).

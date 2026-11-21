@@ -69,7 +69,7 @@ A change of shot, sound, or text. This guide does not teach NLP.
 
 ## 5. Promise, break, frustrate, solve
 
-**Unverified as a formal published title.** Taught here as a usable structure Breno described for the guide. Map it onto curiosity, expectation violation, delayed payoff, and PAS.
+**Unverified as a formal published title.** A structure taught in this guide. Map it onto curiosity, expectation violation, delayed payoff, and PAS.
 
 > Promise: by the end you will know ________.
 > Expected path: most people would ________.

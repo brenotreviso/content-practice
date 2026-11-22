@@ -1,0 +1,26 @@
+/* WCAG AA contrast for the light palette.
+   Material deep orange is #ff6e42 in this theme (2.78:1 on white; the
+   classic #ff5722 is 3.16:1). #c2410c is 5.18:1 against white, so it works
+   both as link text and as the header behind white text. Hover and focus
+   use #9a3412, which is 7.31:1 on white — not a lighter orange. */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #c2410c;
+  --md-primary-fg-color--light: #c2410c;
+  --md-primary-fg-color--dark: #9a3412;
+  --md-typeset-a-color: #c2410c;
+  --md-accent-fg-color: #9a3412;
+  --md-accent-fg-color--transparent: #9a34121a;
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+}
+
+/* Dark-mode links (#ff764d, 6.09:1) and hover (#ffaa00, 8.43:1) already
+   pass on the slate background, so those variables stay. The header still
+   used #ff6e42, and white on that orange is 2.78:1, so only the primary
+   background is deepened. White on #c2410c is 5.18:1. */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #c2410c;
+  --md-primary-fg-color--light: #c2410c;
+  --md-primary-fg-color--dark: #9a3412;
+}

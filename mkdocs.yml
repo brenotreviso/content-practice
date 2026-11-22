@@ -10,6 +10,9 @@ docs_dir: docs
 hooks:
   - scripts/mkdocs_hooks.py
 
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
   - javascripts/open-links-new-tab.js
 

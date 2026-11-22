@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 · 22 Nov 2026
+- Light-mode links and the header use a deeper orange (`#c2410c`) so text on white, and white text on the header, meet WCAG AA (4.5:1). Link hover is `#9a3412`, which also clears 4.5:1. Dark-mode link and hover colours are unchanged because they already pass; the dark-mode header uses the same deeper orange so its white text does too.
+
+
 ## 0.2.1 · 21 Nov 2026
 - The author's name is removed from the guide's prose, agent files, templates and this changelog. It remains only in the licence copyright lines, the site footer and site author, the README copyright line, and the home-page licence line.
 
